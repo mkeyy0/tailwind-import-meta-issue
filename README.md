@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# TailwindCSS import.meta issue
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repository demonstrates an issue with Vite where `import.meta` cannot be used in the TailwindCSS config file.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Reproduction
+
+1. Clone the repository
+2. Run `pnpm install`
+3. Run `pnpm run build` or `pnpm run dev`
+4. See the error
+
+## Expected behavior
+
+The build should succeed.
